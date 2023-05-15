@@ -1,0 +1,54 @@
+# Chain Configurations
+
+This section covers the default chain configuration for all Gridiron Ethereum 
+environments.
+## Local Node Configurations
+
+### JSON RPC Configuration
+- Network Name: `Gridiron Ethereum`
+- RPC URL: `http://localhost:8545`
+- Chain ID: `69420`
+- Symbol(optional): `FURY`
+- Block Explorer URL (optional): ``
+
+### Cosmos Chain Configuration / Keplr Chain Info
+- RPC: `http://localhost:9090`
+- REST: `http://localhost:1317`
+- ChainID: `gridiron-2061`
+- ChainName: `Gridiron Ethereum`
+- BIP44: `60`
+- Bech32Config:
+    - bech32PrefixAccAddr: `gridiron`
+    - bech32PrefixAccPub: `gridironpub`
+    - bech32PrefixValAddr: `gridironvaloper`
+    - bech32PrefixValPub: `gridironvaloperpub`
+    - bech32PrefixConsAddr: `gridironvalcons`
+    - bech32PrefixConsPub: `gridironvalconspub`
+- Currencies:
+    - coinDenom: `FURY`
+    - coinMinimalDenom: `afury`
+    - coinDecimals: `18`
+    - isStakeCurrency: `true`
+    - isFeeCurrency: `true`
+- StakeCurrency:
+    - coinDenom: `FURY`
+    - coinMinimalDenom: `afury`
+    - coinDecimals: `18`
+    - isStakeCurrency: `true`
+    - isFeeCurrency: `true`
+- GasPriceStep:
+    - low: `0`
+    - average: `0`
+    - high: `0.025`
+- Features:
+    - `ibc-transfer`
+    - `ibc-go`
+    - `eth-address-gen`
+    - `eth-key-sign`
+## Testnet Configuration
+
+### JSON RPC Configuration
+🚧 Coming Soon 🚧
+
+### Cosmos Chain Configuration / Keplr Chain Info
+🚧 Coming Soon 🚧
